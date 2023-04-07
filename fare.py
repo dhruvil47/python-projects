@@ -25,7 +25,7 @@ distance=round((geodesic(a, b).km))
 def RickPrice(dist):
     
     intial_distance = 1.5
-    price = 18
+    price = 21
 
     if dist == intial_distance:
     
@@ -40,7 +40,7 @@ def RickPrice(dist):
 def TaxiPrice(dist):
     
     intial_distance = 1.5
-    price = 22
+    price = 28
 
     if dist == intial_distance:
     
